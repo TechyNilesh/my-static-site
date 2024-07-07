@@ -17,26 +17,29 @@
         header {
             background: linear-gradient(45deg, #3498db, #8e44ad);
             color: white;
-            text-align: center;
             padding: 1em;
             margin-bottom: 20px;
             border-radius: 10px;
-            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
         }
-        h1 {
-            margin-bottom: 0;
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            flex-shrink: 0;
         }
-        .subtitle {
+        .header-text {
+            text-align: left;
+        }
+        .header-text h1 {
+            margin: 0;
+        }
+        .header-text .subtitle {
             font-style: italic;
             margin-top: 5px;
-        }
-        .header-image {
-            width: 120px;
-            height: 150px;
-            border-radius: 10px;
-            position: absolute;
-            top: 0px;
-            left:0px;
         }
         section {
             background-color: white;
@@ -96,9 +99,11 @@
 </head>
 <body>
     <header>
-        <img src="Passport_Style_Photograph_Nilesh_Verma.jpg" alt="Nilesh Verma" class="header-image">
-        <h1>Nilesh Verma</h1>
-        <p class="subtitle">Data Scientist & Machine Learning Researcher</p>
+        <img src="NILESH_VERMA_PIC.png" alt="Nilesh Verma">
+        <div class="header-text">
+            <h1>Nilesh Verma</h1>
+            <p class="subtitle">Data Scientist & Machine Learning Researcher</p>
+        </div>
     </header>
 
     <section>
@@ -212,25 +217,4 @@
                 <br>Verma, N. (International Journal for Scientific Research and Development, 2020)
             </li>
             <li>
-                <strong>Development of Depression Identification Decision Support System (DIDSS) Using Machine Learning Approach</strong>
-                <br>Verma, N. Kashyap, U. (Conference: ICIRSMT 2021)
-            </li>
-            <li>
-                <strong>COVID-19: Machine Learning Methods Applied for Twitter Sentiment Analysis of Indians Before and After Lockdown and During Unlock</strong>
-                <br>Hota, H., Sharma, D. Verma, N. (International Journal of Computing Science and Mathematics, Inderscience Publishers)
-            </li>
-        </ul>
-    </section>
-
-    <footer style="text-align: center; margin-top: 20px;">
-        <p>
-            <a href="mailto:me@nileshverma.com">me@nileshverma.com</a> |
-            <a href="tel:+64 02108050680">+64 02108050680</a> |
-            <a href="https://linkedin.com/in/nileshverma" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/nileshverma" target="_blank">GitHub</a> |
-            <a href="https://medium.com/@nileshverma" target="_blank">Medium</a>
-        </p>
-        <p>Hamilton, New Zealand</p>
-    </footer>
-</body>
-</html>
+                <strong>Development of Depression Identification Decision Support
